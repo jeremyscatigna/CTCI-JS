@@ -1,0 +1,32 @@
+{
+  "name": "javascript-ctci-solutions",
+  "version": "1.0.0",
+  "description": "Javascript solutions to Cracking the Coding Interview (CTCI)",
+  "main": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Cracking the Coding Interview",
+    "CTCI",
+    "javascript",
+    "mocha",
+    "chai",
+    "es6"
+  ],
+  "author": "Aryeh Harris",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  }
+}
