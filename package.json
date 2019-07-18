@@ -4,7 +4,7 @@
   "description": "Javascript solutions to Cracking the Coding Interview (CTCI)",
   "main": "",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch"
   },
   "keywords": [
     "Cracking the Coding Interview",
