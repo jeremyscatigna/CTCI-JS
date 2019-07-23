@@ -8,7 +8,7 @@ describe("ch1-q3: URLify", () => {
     expect(URLify(null)).toEqual(null);
   });
 
-  it("works with an empty array as input", () => {
+  it("returns true for an empty array", () => {
     expect(URLify([])).toEqual([]);
   });
 
