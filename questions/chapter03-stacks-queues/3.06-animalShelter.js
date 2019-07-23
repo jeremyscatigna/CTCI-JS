@@ -9,4 +9,4 @@ maintain this system and implement operations such as enqueue, dequeueAny, deque
 and dequeueCat. You may use the built-in Linked list data structure. 
 */
 
-export function animalShelter() {}
+export class AnimalShelter {}

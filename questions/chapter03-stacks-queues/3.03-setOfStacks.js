@@ -11,4 +11,4 @@ FOLLOW UP
 Implement a function popAt ( int index) which performs a pop operation on a specific sub-stack. 
 */
 
-export function setOfStacks() {}
+export class SetOfStacks {}
