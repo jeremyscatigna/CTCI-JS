@@ -10,4 +10,10 @@ Input: "Mr John Smith ", 13
 Output: "Mr%20John%20Smith" 
 */
 
-export const URLify = str => {};
+export const URLify = str => {
+  if (str === undefined || str === null || str.length === 0) {
+    return str;
+  }
+
+  return str.split(" ").join("%20");
+};

@@ -7,4 +7,16 @@ cannot use additional data structures?
 
 */
 
-export function isUnique(str) {}
+export function isUnique(str) {
+  const uniqueChars = new Set();
+
+  for (let i = 0; i < str.length; i++) {
+    if (!uniqueChars.has(str.charAt(i))) {
+      uniqueChars.add(str.charAt(i));
+    } else {
+      return false;
+    }
+  }
+
+  return true;
+}
