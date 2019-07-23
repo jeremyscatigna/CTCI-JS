@@ -1,6 +1,6 @@
 # Questions and Solutions to CTCI
-- Questions are both located in the questions folder.
-- Solutions are both located in the solutions folder.
+- Questions are located in the questions folder.
+- Solutions are located in the solutions folder.
 - Tests are gratefully taken from https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015.
 
 # Install
